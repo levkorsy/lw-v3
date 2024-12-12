@@ -11,7 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Leos will site " />
+  <HelloWorld msg="Leos will site with workflow actions" />
 </template>
 
 <style scoped>
