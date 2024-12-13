@@ -1,8 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import SmokeCanvas from '@/components/kit/smoke-canvas.vue';
+</script>
 
 <template>
   <section class="flex items-center justify-center w-full h-screen bg-primary">
-    <h1 class="text-white text-4xl font-bold">Welcome to Home</h1>
+    <smoke-canvas />
   </section>
 </template>
 
