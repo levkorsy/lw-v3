@@ -66,7 +66,7 @@ export default (canvas: Element): void => {
     };
   }
 
-  function pointerPrototype() {
+  function PointerPrototype() {
     this.id = -1;
     this.x = 0;
     this.y = 0;
@@ -77,7 +77,7 @@ export default (canvas: Element): void => {
     this.color = [30, 0, 300];
   }
 
-  pointers.push(new pointerPrototype());
+  pointers.push(new PointerPrototype());
 
   var GLProgram = (function () {
     function GLProgram(vertexShader, fragmentShader) {
@@ -504,11 +504,14 @@ export default (canvas: Element): void => {
   }
 
   function resizeCanvas() {
-    (canvas.width !== canvas.clientWidth ||
-      canvas.height !== canvas.clientHeight) &&
-      ((canvas.width = canvas.clientWidth),
-      (canvas.height = canvas.clientHeight),
-      initFramebuffers());
+    if (
+      canvas.width !== canvas.clientWidth ||
+      canvas.height !== canvas.clientHeight
+    ) {
+      canvas.width = canvas.clientWidth;
+      canvas.height = canvas.clientHeight;
+      initFramebuffers();
+    }
   }
 
   var count = 0;
@@ -521,13 +524,14 @@ export default (canvas: Element): void => {
   canvas.addEventListener('mousemove', function (e) {
     count++;
 
-    count > 25 &&
-      ((colorArr = [
+    if (count > 25) {
+      colorArr = [
         Math.random() + 0.2,
         Math.random() + 0.2,
         Math.random() + 0.2,
-      ]),
-      (count = 0));
+      ];
+      count = 0;
+    }
 
     pointers[0].down = true;
     pointers[0].color = colorArr;
@@ -547,16 +551,17 @@ export default (canvas: Element): void => {
 
       count++;
 
-      count > 25 &&
-        ((colorArr = [
+      if (count > 25) {
+        colorArr = [
           Math.random() + 0.2,
           Math.random() + 0.2,
           Math.random() + 0.2,
-        ]),
-        (count = 0));
+        ];
+        count = 0;
+      }
 
       for (var i = 0, len = touches.length; i < len; i++) {
-        if (i >= pointers.length) pointers.push(new pointerPrototype());
+        if (i >= pointers.length) pointers.push(new PointerPrototype());
 
         pointers[i].id = touches[i].identifier;
         pointers[i].down = true;
