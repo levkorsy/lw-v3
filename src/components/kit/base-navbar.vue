@@ -13,15 +13,16 @@ interface NavigationItem {
   href: string;
   current: boolean;
 }
+
 const navigation = ref<NavigationItem[]>([]);
 
 const updateNavigation = () => {
   navigation.value = [
-    { name: t('NAVBAR.HOME'), href: '#home', current: true },
-    { name: t('NAVBAR.SMOKE_SIP_ENJOY'), href: '#smoke_sip_enjoy', current: false },
-    { name: t('NAVBAR.RECIPES'), href: '#recipes', current: false },
-    { name: t('NAVBAR.INSTRUCTIONS'), href: '#instructions', current: false },
-    { name: t('NAVBAR.TIPS'), href: '#tips', current: false },
+    {name: t('NAVBAR.HOME'), href: '#home', current: true},
+    {name: t('NAVBAR.SMOKE_SIP_ENJOY'), href: '#smoke_sip_enjoy', current: false},
+    {name: t('NAVBAR.RECIPES'), href: '#recipes', current: false},
+    {name: t('NAVBAR.INSTRUCTIONS'), href: '#instructions', current: false},
+    {name: t('NAVBAR.TIPS'), href: '#tips', current: false},
   ];
 };
 
@@ -38,7 +39,7 @@ const handleNavigation = (item: NavigationItem) => {
 </script>
 
 <template>
-  <Disclosure as="nav" class="bg-primary" v-slot="{ open }">
+  <Disclosure as="nav" class="bg-primary border-b-2 border-secondary" v-slot="{ open }">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -55,13 +56,10 @@ const handleNavigation = (item: NavigationItem) => {
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
               <a v-for="item in navigation" :key="item.name" :href="item.href"
-                 :class="[item.current ? 'text-tertiary' : 'text-white hover:text-tertiary', 'uppercase rounded-md px-3 py-2 text-sm font-medium']"
+                 :class="[item.current ? 'text-tertiary hover:text-tertiary' : 'text-white hover:text-secondary', 'uppercase rounded-md px-3 py-2 text-base font-medium']"
                  :aria-current="item.current ? 'page' : undefined"
                  @click="handleNavigation(item)"
-              >{{ item.name }}
-                <p>{{ item.current }}</p>
-
-              </a>
+              >{{ item.name }}</a>
             </div>
           </div>
         </div>
