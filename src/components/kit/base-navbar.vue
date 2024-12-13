@@ -5,6 +5,7 @@ import {Bars3Icon, XMarkIcon} from '@heroicons/vue/24/outline'
 import {useI18n} from 'vue-i18n';
 import {ref, watchEffect} from 'vue'
 import LangSwitcher from '@/components/kit/lang-switcher.vue'
+import SocialMedia from '@/components/social-media.vue'
 
 const {t} = useI18n();
 
@@ -27,7 +28,6 @@ const updateNavigation = () => {
 };
 
 watchEffect(() => {
-  console.log('watchEffect')
   updateNavigation();
 });
 
@@ -36,6 +36,10 @@ const handleNavigation = (item: NavigationItem) => {
     navItem.current = navItem.name === item.name
   })
 }
+
+const instagramLink = 'https://www.instagram.com';
+const amazonLink = 'https://www.amazon.com';
+
 </script>
 
 <template>
@@ -45,7 +49,7 @@ const handleNavigation = (item: NavigationItem) => {
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <!-- Mobile menu button-->
           <DisclosureButton
-              class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+              class="relative inline-flex items-center justify-center rounded-md p-2 text-secondary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary">
             <span class="absolute -inset-0.5"/>
             <span class="sr-only">Open main menu</span>
             <Bars3Icon v-if="!open" class="block size-6" aria-hidden="true"/>
@@ -64,6 +68,7 @@ const handleNavigation = (item: NavigationItem) => {
           </div>
         </div>
         <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          <social-media/>
           <lang-switcher class="ml-3"/>
         </div>
       </div>
@@ -72,7 +77,7 @@ const handleNavigation = (item: NavigationItem) => {
     <DisclosurePanel class="sm:hidden">
       <div class="space-y-1 px-2 pb-3 pt-2">
         <DisclosureButton v-for="item in navigation" :key="item.name" as="a" :href="item.href"
-                          :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block rounded-md px-3 py-2 text-base font-medium']"
+                          :class="[item.current ? 'text-tertiary hover:text-tertiary' : 'text-white hover:text-secondary', 'block uppercase rounded-md px-3 py-2 text-base font-medium']"
                           :aria-current="item.current ? 'page' : undefined"
                           @click="handleNavigation(item)"
         >{{ item.name }}
