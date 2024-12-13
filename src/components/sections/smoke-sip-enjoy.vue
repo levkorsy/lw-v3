@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section>smoke</section>
+  <section id="smoke-sip-enjoy">smoke</section>
 </template>
 
 <style scoped></style>
