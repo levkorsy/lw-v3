@@ -5,7 +5,7 @@ import {Bars3Icon, XMarkIcon} from '@heroicons/vue/24/outline'
 import {useI18n} from 'vue-i18n';
 import {ref, watchEffect} from 'vue'
 import LangSwitcher from '@/components/kit/lang-switcher.vue'
-import SocialMedia from '@/components/social-media.vue'
+import SocialMedia from '@/components/kit/social-media.vue'
 
 const {t} = useI18n();
 
