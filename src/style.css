@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 :root {
+  --primary: #34413E;
+  --secondary: #eed4c3;
+  --tertiary: #E9967A ;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
