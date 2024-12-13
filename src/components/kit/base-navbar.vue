@@ -1,14 +1,32 @@
 <script setup lang="ts">
 
 import {Disclosure, DisclosureButton, DisclosurePanel} from '@headlessui/vue'
-import {Bars3Icon, BellIcon, XMarkIcon} from '@heroicons/vue/24/outline'
+import {Bars3Icon, XMarkIcon} from '@heroicons/vue/24/outline'
+import {useI18n} from 'vue-i18n';
+import {computed, type Ref, ref} from 'vue'
+import LangSwitcher from './lang-switcher.vue'
 
-const navigation = [
-  {name: 'Home', href: '#', current: true},
-  {name: 'Team', href: '#', current: false},
-  {name: 'Projects', href: '#', current: false},
-  {name: 'Calendar', href: '#', current: false},
-]
+const {t} = useI18n();
+
+interface NavigationItem {
+  name: string;
+  href: string;
+  current: boolean;
+}
+
+const navigation = computed(() => [
+  { name: t('NAVBAR.HOME'), href: '#home', current: true },
+  { name: t('NAVBAR.SMOKE_SIP_ENJOY'), href: '#smoke_sip_enjoy', current: false },
+  { name: t('NAVBAR.RECIPES'), href: '#recipes', current: false },
+  { name: t('NAVBAR.INSTRUCTIONS'), href: '#instructions', current: false },
+  { name: t('NAVBAR.TIPS'), href: '#tips', current: false },
+]);
+
+const handleNavigation = (item: NavigationItem) => {
+  navigation.value.forEach((navItem) => {
+    navItem.current = navItem.name === item.name
+  })
+}
 </script>
 
 <template>
@@ -30,17 +48,14 @@ const navigation = [
             <div class="flex space-x-4">
               <a v-for="item in navigation" :key="item.name" :href="item.href"
                  :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium']"
-                 :aria-current="item.current ? 'page' : undefined">{{ item.name }}</a>
+                 :aria-current="item.current ? 'page' : undefined"
+                 @click="handleNavigation(item)"
+              >{{ item.name }}</a>
             </div>
           </div>
         </div>
         <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-          <button type="button"
-                  class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-            <span class="absolute -inset-1.5"/>
-            <span class="sr-only">View notifications</span>
-            <BellIcon class="size-6" aria-hidden="true"/>
-          </button>
+          <lang-switcher class="ml-3"/>
         </div>
       </div>
     </div>
@@ -49,7 +64,9 @@ const navigation = [
       <div class="space-y-1 px-2 pb-3 pt-2">
         <DisclosureButton v-for="item in navigation" :key="item.name" as="a" :href="item.href"
                           :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block rounded-md px-3 py-2 text-base font-medium']"
-                          :aria-current="item.current ? 'page' : undefined">{{ item.name }}
+                          :aria-current="item.current ? 'page' : undefined"
+                          @click="handleNavigation(item)"
+        >{{ item.name }}
         </DisclosureButton>
       </div>
     </DisclosurePanel>

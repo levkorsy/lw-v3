@@ -1,9 +1,8 @@
 <script setup lang="ts">
-
 </script>
 
 <template>
-  views-container
+  {{ $t('NAVBAR.HOME') }}
 </template>
 
 <style scoped>
