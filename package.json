@@ -11,7 +11,8 @@
     "deploy": "gh-pages -d dist",
     "prepare": "husky",
     "lint": "eslint ./src/**/*.{js,ts,vue}",
-    "format": "prettier .  --write"
+    "format": "prettier .  --write",
+    "type-check": "vue-tsc --build --force"
   },
   "lint-staged": {
     "*.{js,vue,ts}": [
