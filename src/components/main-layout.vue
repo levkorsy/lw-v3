@@ -8,10 +8,10 @@ const isNavbarVisible = ref(false);
 
 onMounted(() => {
   const observer = new IntersectionObserver(
-      ([entry]) => {
-        isNavbarVisible.value = entry.isIntersecting;
-      },
-      { threshold: 0.5 } // Показывать/скрывать навбар при видимости второй секции
+    ([entry]) => {
+      isNavbarVisible.value = entry.isIntersecting;
+    },
+    { threshold: 0.5 } // Показывать/скрывать навбар при видимости второй секции
   );
 
   const secondSection = document.querySelector('#smoke-sip-enjoy');
@@ -25,8 +25,12 @@ onMounted(() => {
   <div class="flex flex-col w-full h-screen">
     <!-- Навбар с анимацией появления и скрытия -->
     <div
-        class="fixed top-0 left-0 w-full z-50 transition-all duration-500 ease-in-out"
-        :class="isNavbarVisible ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'"
+      class="fixed top-0 left-0 w-full z-50 transition-all duration-500 ease-in-out"
+      :class="
+        isNavbarVisible
+          ? 'translate-y-0 opacity-100'
+          : '-translate-y-full opacity-0'
+      "
     >
       <base-navbar class="h-[53px]" />
     </div>
@@ -39,5 +43,4 @@ onMounted(() => {
   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

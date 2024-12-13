@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --primary: #34413E;
+  --primary: #34413e;
   --secondary: #eed4c3;
-  --tertiary: #E9967A ;
+  --tertiary: #e9967a;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -20,4 +20,3 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-

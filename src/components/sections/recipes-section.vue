@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section>smoke</section>
+  <section>recipes</section>
 </template>
 
 <style scoped></style>
