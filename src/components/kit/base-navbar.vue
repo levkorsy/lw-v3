@@ -3,8 +3,8 @@
 import {Disclosure, DisclosureButton, DisclosurePanel} from '@headlessui/vue'
 import {Bars3Icon, XMarkIcon} from '@heroicons/vue/24/outline'
 import {useI18n} from 'vue-i18n';
-import {computed, type Ref, ref} from 'vue'
-import LangSwitcher from './lang-switcher.vue'
+import {ref, watchEffect} from 'vue'
+import LangSwitcher from '@/components/kit/lang-switcher.vue'
 
 const {t} = useI18n();
 
@@ -13,14 +13,22 @@ interface NavigationItem {
   href: string;
   current: boolean;
 }
+const navigation = ref<NavigationItem[]>([]);
 
-const navigation = computed(() => [
-  { name: t('NAVBAR.HOME'), href: '#home', current: true },
-  { name: t('NAVBAR.SMOKE_SIP_ENJOY'), href: '#smoke_sip_enjoy', current: false },
-  { name: t('NAVBAR.RECIPES'), href: '#recipes', current: false },
-  { name: t('NAVBAR.INSTRUCTIONS'), href: '#instructions', current: false },
-  { name: t('NAVBAR.TIPS'), href: '#tips', current: false },
-]);
+const updateNavigation = () => {
+  navigation.value = [
+    { name: t('NAVBAR.HOME'), href: '#home', current: true },
+    { name: t('NAVBAR.SMOKE_SIP_ENJOY'), href: '#smoke_sip_enjoy', current: false },
+    { name: t('NAVBAR.RECIPES'), href: '#recipes', current: false },
+    { name: t('NAVBAR.INSTRUCTIONS'), href: '#instructions', current: false },
+    { name: t('NAVBAR.TIPS'), href: '#tips', current: false },
+  ];
+};
+
+watchEffect(() => {
+  console.log('watchEffect')
+  updateNavigation();
+});
 
 const handleNavigation = (item: NavigationItem) => {
   navigation.value.forEach((navItem) => {
@@ -47,10 +55,13 @@ const handleNavigation = (item: NavigationItem) => {
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
               <a v-for="item in navigation" :key="item.name" :href="item.href"
-                 :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium']"
+                 :class="[item.current ? 'text-tertiary' : 'text-white hover:text-tertiary', 'uppercase rounded-md px-3 py-2 text-sm font-medium']"
                  :aria-current="item.current ? 'page' : undefined"
                  @click="handleNavigation(item)"
-              >{{ item.name }}</a>
+              >{{ item.name }}
+                <p>{{ item.current }}</p>
+
+              </a>
             </div>
           </div>
         </div>
