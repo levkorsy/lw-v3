@@ -11,7 +11,7 @@ onMounted(() => {
     ([entry]) => {
       isNavbarVisible.value = entry.isIntersecting;
     },
-    { threshold: 0.5 } // Показывать/скрывать навбар при видимости второй секции
+    { threshold: 0.2 }
   );
 
   const secondSection = document.querySelector('#smoke-sip-enjoy');
