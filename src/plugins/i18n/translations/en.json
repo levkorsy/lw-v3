@@ -5,5 +5,17 @@
     "RECIPES": "Recipes",
     "INSTRUCTIONS": "Instructions",
     "TIPS": "Tips"
+  },
+  "SECTIONS": {
+    "HOME": {
+      "TITLE": "Elevate Your Cocktail Experience with",
+      "SUBTITLE": "Leo's Will:",
+      "DESCRIPTION": "The Ultimate Smoker for <br />Perfect Old-Fashioned Cocktails.",
+      "BUTTON_TITLE": "Lets Get Started"
+    },
+    "SMOKE_SIP_ENJOY": {
+      "TITLE": "Smoke Sip Enjoy",
+      "DESCRIPTION": "Leo's Will is the ultimate smoker for perfect Old-Fashioned cocktails. Elevate your cocktail experience with Leo's Will."
+    }
   }
 }

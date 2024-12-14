@@ -38,6 +38,7 @@ onMounted(() => {
     <!-- Контент с прокруткой -->
     <div class="flex-1 overflow-y-auto">
       <views-container />
+
       <base-footer class="h-[80px] bg-gray-900 text-white" />
     </div>
   </div>

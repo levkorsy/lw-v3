@@ -86,7 +86,7 @@ const handleNavigation = (item: NavigationItem) => {
           class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
         >
           <social-media />
-          <lang-switcher class="ml-3" />
+          <lang-switcher class="ml-3 mb-3" />
         </div>
       </div>
     </div>

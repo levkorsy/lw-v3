@@ -5,5 +5,13 @@
     "RECIPES": "Recetas",
     "INSTRUCTIONS": "Instrucciones",
     "TIPS": "Consejos"
+  },
+  "SECTIONS": {
+    "HOME": {
+      "TITLE": "Eleva tu experiencia de cóctel con",
+      "SUBTITLE": "Leo's Will:",
+      "DESCRIPTION": "El ahumador definitivo para <br />Cócteles Old-Fashioned perfectos.",
+      "BUTTON_TITLE": "Comencemos"
+    }
   }
 }
