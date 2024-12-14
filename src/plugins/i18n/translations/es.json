@@ -12,6 +12,25 @@
       "SUBTITLE": "Leo's Will:",
       "DESCRIPTION": "El ahumador definitivo para <br />Cócteles Old-Fashioned perfectos.",
       "BUTTON_TITLE": "Comencemos"
+    },
+    "SMOKE_SIP_ENJOY": {
+      "TITLE": "Fumar, Beber, Disfrutar",
+      "DESCRIPTION": "Leo's Will es el ahumador definitivo para cócteles Old-Fashioned perfectos. Eleva tu experiencia de cóctel con Leo's Will.",
+      "ABOUT_US": "Sobre Nosotros",
+      "OUR_PRODUCT": {
+        "TITLE": "Nuestro Producto",
+        "DESCRIPTION_LINE_1": "Para lograr esto, desarrollamos nuestro propio Kit de Ahumador de Cócteles y seleccionamos cuidadosamente las astillas de madera perfectas para mejorar el sabor de nuestro whisky. Este proceso meticuloso agrega una profundidad y carácter únicos a cada sorbo, transformando una bebida ya excelente en algo verdaderamente notable.",
+        "DESCRIPTION_LINE_2": "Nuestro whisky ahumado está elaborado con los mejores ingredientes y un proceso de ahumado meticuloso que agrega una profundidad y carácter únicos a cada sorbo. Creemos que todos merecen disfrutar de una bebida verdaderamente notable, una que convierte un momento ordinario en algo inolvidable."
+      },
+      "OUR_PHILOSOPHY": {
+        "TITLE": "Nuestra Filosofía",
+        "DESCRIPTION_LINE_1": "En el fondo, se trata de reunir a las personas y celebrar las pequeñas alegrías de la vida. Sabemos lo importante que es tomarse un descanso y disfrutar de las cosas buenas de la vida. Nuestro whisky no se trata solo de la bebida en sí, sino de los momentos que ayuda a crear.",
+        "DESCRIPTION_LINE_2": "Cuando disfrutas de nuestro whisky ahumado, te unes a nosotros en nuestra pasión, y esperamos que traiga un poco de esa misma alegría y relajación a tu vida. Ya seas un aficionado al whisky o simplemente estés buscando algo nuevo, estamos aquí para ofrecerte una bebida que está elaborada con cuidado y que está destinada a ser saboreada."
+      },
+      "JOIN_US": {
+        "TITLE": "Únete a Nosotros",
+        "DESCRIPTION_LINE_1": "Únete a nosotros en esta aventura"
+      }
     }
   }
 }

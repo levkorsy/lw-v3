@@ -15,7 +15,22 @@
     },
     "SMOKE_SIP_ENJOY": {
       "TITLE": "Smoke Sip Enjoy",
-      "DESCRIPTION": "Leo's Will is the ultimate smoker for perfect Old-Fashioned cocktails. Elevate your cocktail experience with Leo's Will."
+      "DESCRIPTION": "Leo's Will is the ultimate smoker for perfect Old-Fashioned cocktails. Elevate your cocktail experience with Leo's Will.",
+      "ABOUT_US": "About Us",
+      "OUR_PRODUCT": {
+        "TITLE": "Our Product",
+        "DESCRIPTION_LINE_1": "To achieve this, we developed our own Cocktail Smoker Kit and carefully selected the perfect wood chips to enhance the flavor of our whiskey. This meticulous process adds a unique depth and character to every sip, transforming an already great drink into something truly remarkable",
+        "DESCRIPTION_LINE_2": "Our smoked whiskey is crafted with the finest ingredients and a meticulous smoking process that adds a unique depth and character to every sip. We believe that everyone deserves to enjoy a truly remarkable drink, one that turns an ordinary moment into something unforgettable."
+      },
+      "OUR_PHILOSOPHY": {
+        "TITLE": "Our Philosophy",
+        "DESCRIPTION_LINE_1": "At our core, we’re all about bringing people together and celebrating life’s little joys. We know how important it is to take a break and enjoy the good things in life. Our whiskey isn’t just about the drink itself, but about the moments it helps create.",
+        "DESCRIPTION_LINE_2": "When you enjoy our smoked whiskey, you’re joining us in our passion, and we hope it brings a bit of that same joy and relaxation into your life. Whether you’re a whiskey aficionado or just looking for something new, we’re here to offer you a drink that’s crafted with care and meant to be savored."
+      },
+      "JOIN_US": {
+        "TITLE": "Join Us",
+        "DESCRIPTION_LINE_1": "Join us on this adventure, discover new flavors, and make every sip count. Cheers!"
+      }
     }
   }
 }
