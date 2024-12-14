@@ -1,9 +1,9 @@
 /* eslint-disable */
 // @ts-nocheck
-import { onBeforeUnmount } from 'vue';
+import { onBeforeUnmount, Ref } from 'vue';
 import { isMobileDevice } from '@/helpers/isMobileDevice.ts';
 
-export default (aboutVideo: Element): void => {
+export default (aboutVideo: Ref): void => {
   let observer = null;
 
   if (aboutVideo.value) {
