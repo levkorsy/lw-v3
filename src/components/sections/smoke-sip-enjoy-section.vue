@@ -27,7 +27,6 @@ onMounted(() => {
         muted
         playsinline
         loop
-        loading="lazy"
         preload="auto"
         class="w-full h-auto rounded-lg shadow-lg"
       >
