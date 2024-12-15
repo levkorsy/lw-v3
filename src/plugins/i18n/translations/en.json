@@ -33,7 +33,195 @@
       }
     },
     "RECIPES": {
-      "TITLE": "Smoke Up the Seasons: Cocktails with a Twist \uD83C\uDF78"
+      "TITLE": "Smoke Up the Seasons: Cocktails with a Twist \uD83C\uDF78\n",
+      "SPRING_CHERRY": {
+        "TITLE": "Spring: Cherry Blossom Old Fashioned",
+        "DESCRIPTION": "Spring is all about renewal and fresh beginnings. The Cherry Blossom Old Fashioned captures the light and floral notes of the season, perfect for enjoying the blossoming beauty around you.",
+        "INGREDIENTS": [
+          "2 oz bourbon or rye whiskey (recommended: Buffalo Trace Bourbon or Bulleit Rye)",
+          "1 sugar cube",
+          "2 dashes Angostura bitters",
+          "1 bar spoon of cherry syrup",
+          "Orange twist",
+          "Metal whiskey stones",
+          "Cherry wood chips (using the provided wood chip tongs)"
+        ],
+        "INSTRUCTIONS": {
+          "PREPARATION": [
+            "Muddle the sugar cube with the bitters and cherry syrup in a mixing glass until the sugar is dissolved.",
+            "Add the whiskey and stir to combine."
+          ],
+          "SMOKING_THE_GLASS": [
+            "Smoker Setup: Place the smoker on an empty glass and attach the metal filter.",
+            "Wood Chips: Use tongs to place a thin layer of cherry wood chips just enough to cover the bottom of the smoker chamber.",
+            "Torch: Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.",
+            "Smoke Time: Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.",
+            "Handling Safety: Carefully remove the smoker, avoiding contact with the hot metal filter."
+          ],
+          "FINAL_ASSEMBLY": [
+            "Quickly add the prepared whiskey mixture from the mixing glass into the smoked glass.",
+            "Add metal whiskey stones and stir until well mixed.",
+            "Garnish with an orange twist."
+          ]
+        },
+        "ALTERNATIVE": [
+          "Pour the prepared whiskey mixture into a glass suitable for smoking.",
+          "Smoker Setup: Place the smoker on top of the glass and attach the metal filter.",
+          "Wood Chips: Use tongs to place a thin layer of cherry wood chips just enough to cover the bottom of the smoker chamber.",
+          "Torch: Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.",
+          "Smoke Time: Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.",
+          "Handling Safety: Carefully remove the smoker, avoiding contact with the hot metal filter.",
+          "Add metal whiskey stones and stir until well mixed.",
+          "Garnish with an orange twist."
+        ],
+        "PREFERRED": [
+          "Buffalo Trace Bourbon: A well-rounded bourbon with rich caramel and vanilla notes, perfect for an Old Fashioned.",
+          "Bulleit Rye: Known for its spiciness and complexity, it adds a unique depth to the cocktail.",
+          "Your favorite bourbon or rye whiskey can also be used."
+        ]
+      },
+      "SUMMER_APPLEWOOD": {
+        "TITLE": "Summer: Applewood Smoked Whiskey Smash",
+        "DESCRIPTION": "Summer brings warmth and long, sunny days. The Applewood Smoked Whiskey Smash is a refreshing cocktail with a burst of fresh mint and lemon, perfect for cooling off.",
+        "INGREDIENTS": [
+          "2 oz bourbon (recommended: Maker’s Mark) or rye whiskey (recommended: Bulleit Rye)",
+          "1/2 oz simple syrup",
+          "1/2 oz fresh lemon juice",
+          "4-5 fresh mint leaves",
+          "Lemon wheel for garnish",
+          "Metal whiskey stones",
+          "Apple wood chips (using the provided wood chip tongs)"
+        ],
+        "INSTRUCTIONS": {
+          "PREPARATION": [
+            "In a mixing glass, muddle the mint leaves with simple syrup and lemon juice.",
+            "Add the whiskey and stir to combine."
+          ],
+          "SMOKING_THE_GLASS": [
+            "Smoker Setup: Place the smoker on an empty glass and attach the metal filter.",
+            "Wood Chips: Use tongs to place a thin layer of apple wood chips just enough to cover the bottom of the smoker chamber.",
+            "Torch: Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.",
+            "Smoke Time: Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.",
+            "Handling Safety: Carefully remove the smoker, avoiding contact with the hot metal filter."
+          ],
+          "FINAL_ASSEMBLY": [
+            "Quickly add the prepared whiskey mixture from the mixing glass into the smoked glass.",
+            "Add metal whiskey stones and stir until well mixed.",
+            "Garnish with a lemon wheel and a sprig of mint."
+          ]
+        },
+        "ALTERNATIVE": [
+          "Pour the prepared whiskey mixture into a glass suitable for smoking.",
+          "Smoker Setup: Place the smoker on top of the glass and attach the metal filter.",
+          "Wood Chips: Use tongs to place a thin layer of apple wood chips just enough to cover the bottom of the smoker chamber.",
+          "Torch: Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.",
+          "Smoke Time: Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.",
+          "Handling Safety: Carefully remove the smoker, avoiding contact with the hot metal filter.",
+          "Add metal whiskey stones and stir until well mixed.",
+          "Garnish with a lemon wheel and a sprig of mint."
+        ],
+        "PREFERRED": [
+          "Maker’s Mark Bourbon: Known for its smooth and rich flavor, it complements the freshness of the mint and lemon.",
+          "Bulleit Rye: Adds a spiciness that pairs well with the citrus and mint.",
+          "Your favorite bourbon or rye whiskey can also be used."
+        ]
+      },
+      "FALL_HICKORY": {
+        "TITLE": "Fall: Hickory Smoked Maple Manhattan",
+        "DESCRIPTION": "Fall is a season of rich colors and cozy flavors. The Hickory Smoked Maple Manhattan combines the warmth of whiskey with the sweetness of maple syrup, perfect for cool autumn evenings.",
+        "INGREDIENTS": [
+          "2 oz rye whiskey (recommended: Bulleit Rye or Woodford Reserve Rye)",
+          "1 oz sweet vermouth",
+          "1/4 oz pure maple syrup",
+          "2 dashes Angostura bitters",
+          "Maraschino cherry for garnish",
+          "Metal whiskey stones",
+          "Hickory wood chips (using the provided wood chip tongs)"
+        ],
+        "INSTRUCTIONS": {
+          "PREPARATION": [
+            "In a mixing glass, combine the sweet vermouth, maple syrup, and bitters until well mixed.",
+            "Add the whiskey and stir to combine."
+          ],
+          "SMOKING_THE_GLASS": [
+            "Smoker Setup: Place the smoker on an empty glass and attach the metal filter.",
+            "Wood Chips: Use tongs to place a thin layer of hickory wood chips just enough to cover the bottom of the smoker chamber.",
+            "Torch: Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.",
+            "Smoke Time: Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.",
+            "Handling Safety: Carefully remove the smoker, avoiding contact with the hot metal filter."
+          ],
+          "FINAL_ASSEMBLY": [
+            "Quickly add the prepared whiskey mixture from the mixing glass into the smoked glass.",
+            "Add metal whiskey stones and stir until well mixed.",
+            "Garnish with a maraschino cherry."
+          ]
+        },
+        "ALTERNATIVE": [
+          "Pour the prepared whiskey mixture into a glass suitable for smoking.",
+          "Smoker Setup: Place the smoker on top of the glass and attach the metal filter.",
+          "Wood Chips: Use tongs to place a thin layer of hickory wood chips just enough to cover the bottom of the smoker chamber.",
+          "Torch: Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.",
+          "Smoke Time: Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.",
+          "Handling Safety: Carefully remove the smoker, avoiding contact with the hot metal filter.",
+          "Add metal whiskey stones and stir until well mixed.",
+          "Garnish with a maraschino cherry."
+        ],
+        "PREFERRED": [
+          "Bulleit Rye: Its spiciness complements the sweetness of the maple syrup and the richness of the vermouth.",
+          "Woodford Reserve Rye: Offers a balanced flavor profile with notes of fruit and spice, enhancing the autumnal feel of the cocktail.",
+          "Your favorite bourbon or rye whiskey can also be used."
+        ]
+      },
+      "WINTER_OAK": {
+        "TITLE": "Winter: Oak Smoked Spiced Hot Toddy",
+        "DESCRIPTION": "Winter calls for warm, spiced flavors to brighten the cold days. The Oak Smoked Spiced Hot Toddy is a cozy drink that brings the festive spirit to life, perfect for sipping by the fire.",
+        "INGREDIENTS": [
+          "2 oz bourbon (recommended: Elijah Craig Small Batch) or rye whiskey (recommended: Rittenhouse Rye)",
+          "1 tbsp honey",
+          "1/2 oz fresh lemon juice",
+          "1 cinnamon stick",
+          "3 cloves",
+          "1 star anise",
+          "Hot water",
+          "Metal whiskey stones (optional for chilling the glass before adding hot water)",
+          "Oak wood chips (using the provided wood chip tongs)"
+        ],
+        "INSTRUCTIONS": {
+          "PREPARATION": [
+            "In a mixing glass, combine honey, lemon juice, cinnamon stick, cloves, and star anise.",
+            "Add hot water to dissolve the honey and stir.",
+            "Add the whiskey and stir to combine."
+          ],
+          "SMOKING_THE_GLASS": [
+            "Smoker Setup: Place the smoker on an empty glass and attach the metal filter.",
+            "Wood Chips: Use tongs to place a thin layer of oak wood chips just enough to cover the bottom of the smoker chamber.",
+            "Torch: Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.",
+            "Smoke Time: Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.",
+            "Handling Safety: Carefully remove the smoker, avoiding contact with the hot metal filter."
+          ],
+          "FINAL_ASSEMBLY": [
+            "Quickly add the prepared whiskey mixture from the mixing glass into the smoked glass.",
+            "Add metal whiskey stones and stir until well mixed.",
+            "Garnish with a lemon wheel and an additional cinnamon stick."
+          ]
+        },
+        "ALTERNATIVE": [
+          "Pour the prepared whiskey mixture into a glass suitable for smoking.",
+          "Smoker Setup: Place the smoker on top of the glass and attach the metal filter.",
+          "Wood Chips: Use tongs to place a thin layer of oak wood chips just enough to cover the bottom of the smoker chamber.",
+          "Torch: Hold the torch at a 90-degree angle and light the wood chips for 5-7 seconds until they start to char and produce smoke.",
+          "Smoke Time: Cover with the smoker lid for 1-2 minutes to infuse smoke flavor.",
+          "Handling Safety: Carefully remove the smoker, avoiding contact with the hot metal filter.",
+          "Quickly add the prepared mixture from the mixing glass into the smoked whiskey glass.",
+          "Add metal whiskey stones and stir until well mixed.",
+          "Garnish with a lemon wheel and an additional cinnamon stick."
+        ],
+        "PREFERRED": [
+          "Elijah Craig Small Batch Bourbon: Its rich, full-bodied flavor pairs well with the spices and honey in the hot toddy.",
+          "Rittenhouse Rye: Adds a robust, spicy note that enhances the warmth and depth of the drink.",
+          "Your favorite bourbon or rye whiskey can also be used."
+        ]
+      }
     }
   }
 }
