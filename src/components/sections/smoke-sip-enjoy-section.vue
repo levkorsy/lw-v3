@@ -40,7 +40,7 @@ onMounted(() => {
       <div class="flex flex-col md:flex-row gap-6">
         <div class="flex-1">
           <img
-            src="/images/angel_leo.jpg"
+            src="/images/angel_leo.webp"
             alt="Family photo"
             class="w-full h-auto rounded-lg shadow-lg"
           />
