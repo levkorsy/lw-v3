@@ -1,11 +1,11 @@
 <template>
   <main class="flex flex-col w-full">
     <home id="home" class="min-h-screen w-full" />
-    <smoke-sip-enjoy id="smoke-sip-enjoy" class="mb-4" />
+    <smoke-sip-enjoy id="smoke-sip-enjoy" />
     <base-divider />
-    <recipes id="recipes" class="mb-4" />
-    <instructions id="instructions" class="mb-4" />
-    <tips id="tips" class="mb-4" />
+    <recipes id="recipes" />
+    <instructions id="instructions" />
+    <tips id="tips" />
   </main>
 </template>
 

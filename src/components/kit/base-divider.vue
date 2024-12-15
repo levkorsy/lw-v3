@@ -1,13 +1,13 @@
 <template>
   <div class="flex items-center my-10">
-    <div class="flex-1 border-t border-gray-300"></div>
+    <div class="flex-1 border-t border-secondary"></div>
     <div class="px-4">
       <font-awesome-icon
         :icon="['fas', 'cocktail']"
         class="text-2xl text-secondary"
       />
     </div>
-    <div class="flex-1 border-t border-gray-300"></div>
+    <div class="flex-1 border-t border-secondary"></div>
   </div>
 
   <!--  <div class="border-t-2 border-secondary my-10"></div>-->
