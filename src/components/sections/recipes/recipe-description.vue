@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-  <p class="text-lg text-gray-600 mb-4 text-center leading-relaxed">
+  <p class="text-lg mb-4 leading-relaxed indent-10 text-justify">
     {{ description }}
   </p>
 </template>

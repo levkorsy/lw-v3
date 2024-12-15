@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import InstructionGroup from './instruction-group.vue';
+import { useI18n } from 'vue-i18n';
 
 defineProps({
   instructions: {
@@ -7,10 +8,15 @@ defineProps({
     required: true,
   },
 });
+const { t } = useI18n();
 </script>
 
 <template>
   <div>
+    <h4 class="text-xl font-bold mt-4">
+      {{ t('SECTIONS.RECIPES.INSTRUCTIONS') }}
+    </h4>
+
     <instruction-group
       v-for="(group, index) in instructions"
       :key="index"

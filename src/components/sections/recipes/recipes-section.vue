@@ -4,7 +4,6 @@ import { useRecipes } from '@/components/sections/recipes/useRecipes.ts';
 import RecipeItem from '@/components/sections/recipes/recipe-item.vue';
 
 const { recipes } = useRecipes();
-console.log(recipes.value);
 </script>
 
 <template>
@@ -21,8 +20,8 @@ console.log(recipes.value);
 
     <div class="mt-10 w-full max-w-5xl">
       <recipe-item
-        v-for="recipe in recipes"
-        :key="recipe.title"
+        v-for="(recipe, index) in recipes"
+        :key="recipe.title + index"
         :recipe="recipe"
       />
     </div>

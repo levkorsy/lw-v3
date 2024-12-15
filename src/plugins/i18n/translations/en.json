@@ -34,6 +34,16 @@
     },
     "RECIPES": {
       "TITLE": "Smoke Up the Seasons: Cocktails with a Twist \uD83C\uDF78\n",
+      "INSTRUCTIONS": "Instructions",
+      "INGREDIENTS": "Ingredients",
+      "PREPARATION": "Preparation",
+      "SMOKING_THE_GLASS": "Smoking the Glass",
+      "FINAL_ASSEMBLY": "Final Assembly",
+      "ALTERNATIVE": "Alternative",
+      "PREFERRED": "Preferred",
+      "PREPARATION_TITLE": "Preparation:",
+      "SMOKING_THE_GLASS_TITLE": "Smoking the Glass:",
+      "FINAL_ASSEMBLY_TITLE": "Final Assembly:",
       "SPRING_CHERRY": {
         "TITLE": "Spring: Cherry Blossom Old Fashioned",
         "DESCRIPTION": "Spring is all about renewal and fresh beginnings. The Cherry Blossom Old Fashioned captures the light and floral notes of the season, perfect for enjoying the blossoming beauty around you.",

@@ -15,20 +15,16 @@ defineProps({
 </script>
 
 <template>
-  <article class="bg-white p-6 rounded-lg shadow-md">
+  <article class="bg-secondary p-6 rounded-lg shadow-md text-primary">
     <recipe-title :title="recipe.title" />
     <recipe-description :description="recipe.description" />
 
-    <h3 class="text-xl font-bold mt-4">Ingredients</h3>
     <recipe-ingredients :ingredients="recipe.ingredients" />
 
-    <h3 class="text-xl font-bold mt-4">Instructions</h3>
     <recipe-instructions :instructions="recipe.instructions" />
 
-    <h3 class="text-xl font-bold mt-4">Alternative</h3>
     <recipe-alternative :alternative="recipe.alternative" />
 
-    <h3 class="text-xl font-bold mt-4">Preferred Whiskey</h3>
     <recipe-preferred :preferred="recipe.preferred" />
   </article>
 </template>

@@ -34,6 +34,16 @@
     },
     "RECIPES": {
       "TITLE": "Ahúma las Estaciones: Cócteles con un Toque \uD83C\uDF78\n",
+      "INSTRUCTIONS": "Instrucciones",
+      "INGREDIENTS": "Ingredientes",
+      "PREPARATION": "Preparación",
+      "SMOKING_THE_GLASS": "Ahumar el Vaso",
+      "FINAL_ASSEMBLY": "Ensamblaje Final",
+      "ALTERNATIVE": "Alternativa",
+      "PREFERRED": "Preferido",
+      "PREPARATION_TITLE": "Preparación:",
+      "SMOKING_THE_GLASS_TITLE": "Ahumar el Vaso:",
+      "FINAL_ASSEMBLY_TITLE": "Final Assembly:",
       "SPRING_CHERRY": {
         "TITLE": "Primavera: Cherry Blossom Old Fashioned",
         "DESCRIPTION": "La primavera es sinónimo de renovación y nuevos comienzos. El Cherry Blossom Old Fashioned captura las notas ligeras y florales de la temporada, perfecto para disfrutar la belleza floreciente.",
