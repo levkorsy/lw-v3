@@ -2,8 +2,15 @@
 import SectionHeader from '@/components/sections/components/section-header.vue';
 import { useRecipes } from '@/components/sections/recipes/useRecipes.ts';
 import RecipeItem from '@/components/sections/recipes/recipe-item.vue';
+import { ref } from 'vue';
 
 const { recipes } = useRecipes();
+
+const activeRecipe = ref<number | null>(null);
+
+const toggleRecipe = (index: number) => {
+  activeRecipe.value = activeRecipe.value === index ? null : index;
+};
 </script>
 
 <template>
@@ -12,17 +19,13 @@ const { recipes } = useRecipes();
   >
     <section-header text="SECTIONS.RECIPES.TITLE" />
 
-    <img
-      src="/images/different_glasses.webp"
-      alt="Family photo"
-      class="w-full h-auto rounded-lg shadow-lg max-w-5xl"
-    />
-
-    <div class="mt-10 w-full max-w-5xl">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
       <recipe-item
         v-for="(recipe, index) in recipes"
         :key="recipe.title + index"
         :recipe="recipe"
+        :is-active="activeRecipe === index"
+        @click="toggleRecipe(index)"
       />
     </div>
   </section>
