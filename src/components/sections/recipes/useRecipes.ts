@@ -8,6 +8,7 @@ type Recipe = {
   instructions: InstructionGroup[];
   alternative: string[];
   preferred: string[];
+  image?: string;
 };
 
 type InstructionGroup = {
@@ -83,6 +84,7 @@ export const useRecipes = () => {
         t('SECTIONS.RECIPES.SPRING_CHERRY.PREFERRED[1]'),
         t('SECTIONS.RECIPES.SPRING_CHERRY.PREFERRED[2]'),
       ],
+      image: '/images/recipes/spring.png',
     },
     {
       title: t('SECTIONS.RECIPES.SUMMER_APPLEWOOD.TITLE'),
@@ -154,6 +156,7 @@ export const useRecipes = () => {
         t('SECTIONS.RECIPES.SUMMER_APPLEWOOD.PREFERRED[1]'),
         t('SECTIONS.RECIPES.SUMMER_APPLEWOOD.PREFERRED[2]'),
       ],
+      image: '/images/recipes/summer.png',
     },
     {
       title: t('SECTIONS.RECIPES.FALL_HICKORY.TITLE'),
@@ -219,6 +222,7 @@ export const useRecipes = () => {
         t('SECTIONS.RECIPES.FALL_HICKORY.PREFERRED[1]'),
         t('SECTIONS.RECIPES.FALL_HICKORY.PREFERRED[2]'),
       ],
+      image: '/images/recipes/fall.png',
     },
     {
       title: t('SECTIONS.RECIPES.WINTER_OAK.TITLE'),
@@ -278,6 +282,7 @@ export const useRecipes = () => {
         t('SECTIONS.RECIPES.WINTER_OAK.PREFERRED[1]'),
         t('SECTIONS.RECIPES.WINTER_OAK.PREFERRED[2]'),
       ],
+      image: '/images/recipes/winter.png',
     },
   ]);
 

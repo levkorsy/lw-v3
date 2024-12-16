@@ -7,6 +7,7 @@ import { onMounted, ref } from 'vue';
 import useVideoTrigger from '@/composables/useVideoTrigger.ts';
 import SectionHeader from '@/components/sections/components/section-header.vue';
 import SectionSubHeader from '@/components/sections/components/section-sub-header.vue';
+import BaseImage from '@/components/kit/base-image.vue';
 
 const aboutVideo = ref(null);
 
@@ -39,16 +40,16 @@ onMounted(() => {
 
       <div class="flex flex-col md:flex-row gap-6">
         <div class="flex-1">
-          <img
-            src="/images/angel_leo.webp"
+          <base-image
+            imageSrc="/images/angel_leo.webp"
             alt="Family photo"
             class="w-full h-auto rounded-lg shadow-lg"
           />
         </div>
 
         <div class="flex-1">
-          <img
-            src="/images/about_us_text.jpg"
+          <base-image
+            imageSrc="/images/about_us_text.jpg"
             alt="About us"
             class="w-full h-auto rounded-lg shadow-lg"
           />

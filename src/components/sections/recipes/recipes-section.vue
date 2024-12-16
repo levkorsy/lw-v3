@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import SectionHeader from '@/components/sections/components/section-header.vue';
 import { useRecipes } from '@/components/sections/recipes/useRecipes.ts';
-import RecipeItem from '@/components/sections/recipes/recipe-item.vue';
+import RecipeCard from '@/components/sections/recipes/recipe-card.vue';
 import { ref } from 'vue';
 
 const { recipes } = useRecipes();
@@ -20,7 +20,7 @@ const toggleRecipe = (index: number) => {
     <section-header text="SECTIONS.RECIPES.TITLE" />
 
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
-      <recipe-item
+      <recipe-card
         v-for="(recipe, index) in recipes"
         :key="recipe.title + index"
         :recipe="recipe"
