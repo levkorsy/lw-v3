@@ -44,7 +44,7 @@ const handleNavigation = (item: NavigationItem) => {
 <template>
   <Disclosure
     as="nav"
-    class="bg-primary border-b-2 border-secondary"
+    class="bg-quaternary border-b-2 border-secondary"
     v-slot="{ open }"
   >
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
