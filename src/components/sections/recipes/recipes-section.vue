@@ -1,15 +1,22 @@
 <script setup lang="ts">
 import SectionHeader from '@/components/sections/components/section-header.vue';
-import { useRecipes } from '@/components/sections/recipes/useRecipes.ts';
+import {
+  Recipe,
+  useRecipes,
+} from '@/components/sections/recipes/useRecipes.ts';
 import RecipeCard from '@/components/sections/recipes/recipe-card.vue';
 import { ref } from 'vue';
+import RecipePreviewModal from '@/components/sections/recipes/recipe-preview-modal.vue';
 
 const { recipes } = useRecipes();
 
-const activeRecipe = ref<number | null>(null);
+const activeRecipe = ref<Recipe>({} as Recipe);
+const isRecipeModalOpen = ref(false);
 
-const toggleRecipe = (index: number) => {
-  activeRecipe.value = activeRecipe.value === index ? null : index;
+const handleRecipeCardClick = (recipe: Recipe) => {
+  isRecipeModalOpen.value = true;
+
+  activeRecipe.value = recipe;
 };
 </script>
 
@@ -24,11 +31,16 @@ const toggleRecipe = (index: number) => {
         v-for="(recipe, index) in recipes"
         :key="recipe.title + index"
         :recipe="recipe"
-        :is-active="activeRecipe === index"
-        @click="toggleRecipe(index)"
+        @click="handleRecipeCardClick(recipe)"
       />
     </div>
   </section>
+
+  <recipe-preview-modal
+    :recipe="activeRecipe"
+    :is-recipe-modal-open="isRecipeModalOpen"
+    @close="isRecipeModalOpen = false"
+  />
 </template>
 
 <style scoped></style>

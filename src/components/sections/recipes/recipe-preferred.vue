@@ -16,7 +16,7 @@ const { t } = useI18n();
     {{ t('SECTIONS.RECIPES.PREFERRED') }}
   </h4>
 
-  <ul class="list-disc list-inside space-y-2 text-gray-700">
+  <ul class="list-disc list-inside space-y-2">
     <li v-for="(item, index) in preferred" :key="index">
       {{ item }}
     </li>

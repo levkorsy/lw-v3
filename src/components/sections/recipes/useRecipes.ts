@@ -1,7 +1,7 @@
 import { useI18n } from 'vue-i18n';
 import { computed } from 'vue';
 
-type Recipe = {
+export type Recipe = {
   title: string;
   description: string;
   ingredients: string[];

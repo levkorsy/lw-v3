@@ -12,9 +12,9 @@ defineProps({
 </script>
 
 <template>
-  <div class="mb-6">
+  <div>
     <h5 class="text-lg font-semibold mb-2">{{ title }}</h5>
-    <ul class="list-decimal list-inside space-y-1 text-gray-700">
+    <ul class="list-decimal list-inside space-y-1">
       <li v-for="(step, index) in steps" :key="index">
         {{ step }}
       </li>

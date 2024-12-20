@@ -8,6 +8,7 @@ export default {
         secondary: 'var(--secondary)',
         tertiary: 'var(--tertiary)',
         quaternary: 'var(--quaternary)',
+        quinary: 'var(--quinary)',
       },
     },
   },
