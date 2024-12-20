@@ -13,7 +13,7 @@ defineProps({
 
 <template>
   <article
-    class="h-auto transition-all duration-500 ease-in-out cursor-pointer shadow-lg rounded-lg overflow-hidden border-4 border-double border-quinary"
+    class="h-auto transition-all duration-500 ease-in-out cursor-pointer shadow-lg rounded-lg overflow-hidden border-4 border-double border-quinary hover:scale-105 hover:shadow-lg hover:border-secondary"
   >
     <div
       class="h-auto flex items-center justify-center text-center flex-col md:flex-row"

@@ -39,12 +39,16 @@ defineEmits(['close']);
         </div>
 
         <div class="flex flex-col md:flex-row mb-3">
-          <div class="me-3 pe-3 border-r-4 border-quinary border-double">
+          <div
+            class="me-3 sm:pe-3 border-none sm:border-r-4 sm:border-quinary sm:border-double"
+          >
             <recipe-image :image-src="recipe.image" />
 
             <recipe-ingredients :ingredients="recipe.ingredients" />
           </div>
-          <div class="me-3 pe-3 border-r-4 border-quinary border-double">
+          <div
+            class="me-3 sm:pe-3 border-none sm:border-r-4 sm:border-quinary sm:border-double"
+          >
             <recipe-instructions :instructions="recipe.instructions" />
           </div>
           <div class="me-3">
