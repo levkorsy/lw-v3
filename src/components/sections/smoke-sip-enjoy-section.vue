@@ -22,7 +22,7 @@ onMounted(() => {
   >
     <section-header text="SECTIONS.SMOKE_SIP_ENJOY.TITLE" />
 
-    <div class="w-full max-w-7xl mb-10">
+    <div class="w-full max-w-7xl mb-10 about-video-container">
       <video
         ref="aboutVideo"
         muted

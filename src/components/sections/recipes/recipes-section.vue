@@ -19,7 +19,8 @@ const toggleRecipe = (index: number) => {
   >
     <section-header text="SECTIONS.RECIPES.TITLE" />
 
-    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
+    <!--    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">-->
+    <div class="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-2 gap-4">
       <recipe-card
         v-for="(recipe, index) in recipes"
         :key="recipe.title + index"

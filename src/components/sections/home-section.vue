@@ -4,8 +4,13 @@ import BaseButton from '@/components/kit/base-button.vue';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import scrollIntoView from '@/helpers/scroll-into-view.ts';
 import { useI18n } from 'vue-i18n';
+import { useElementVisibility } from '@/composables/useElementVisibility.ts';
 
 const { t } = useI18n();
+
+const { isVisible: isCanvasVisible } = useElementVisibility(
+  '.smoke-canvas-container'
+);
 
 const handleLetsTry = () => {
   scrollIntoView('#smoke-sip-enjoy', 'start');
@@ -14,9 +19,9 @@ const handleLetsTry = () => {
 
 <template>
   <section
-    class="flex items-center justify-center w-full h-screen bg-primary relative"
+    class="flex items-center justify-center w-full h-screen bg-primary relative smoke-canvas-container"
   >
-    <smoke-canvas />
+    <smoke-canvas v-if="isCanvasVisible" />
 
     <div
       class="absolute items-center justify-center text-center pointer-events-none"

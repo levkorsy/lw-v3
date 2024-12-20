@@ -5,6 +5,7 @@ import { useI18n } from 'vue-i18n';
 import { ref, watchEffect } from 'vue';
 import LangSwitcher from '@/components/kit/lang-switcher.vue';
 import SocialMedia from '@/components/kit/social-media.vue';
+import scrollIntoView from '@/helpers/scroll-into-view.ts';
 
 const { t } = useI18n();
 
@@ -38,6 +39,8 @@ const handleNavigation = (item: NavigationItem) => {
   navigation.value.forEach((navItem) => {
     navItem.current = navItem.name === item.name;
   });
+
+  scrollIntoView(item.href);
 };
 </script>
 

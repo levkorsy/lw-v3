@@ -19,7 +19,7 @@ defineProps({
 <template>
   <article
     class="transition-all duration-500 ease-in-out cursor-pointer shadow-lg rounded-lg overflow-hidden border-4 border-double border-secondary"
-    :class="isActive ? 'col-span-2 row-span-2 p-6' : 'h-80 p-4'"
+    :class="isActive ? 'col-span-2 row-span-2 p-6' : 'h-auto'"
   >
     <div v-if="isActive" class="mt-4 overflow-auto">
       <recipe-title :title="recipe.title" class="text-xl font-bold" />
@@ -46,7 +46,6 @@ defineProps({
 
         <recipe-description :description="recipe.description" class="m-3" />
       </div>
-      <!--      <p class="text-gray-700 text-lg">Click to see full recipe</p>-->
     </div>
   </article>
 </template>
