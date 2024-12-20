@@ -13,7 +13,7 @@ const { t } = useI18n();
 
 <template>
   <div>
-    <h4 class="text-xl font-bold mt-4">
+    <h4 class="text-xl font-bold mt-4 text-secondary">
       {{ t('SECTIONS.RECIPES.INSTRUCTIONS') }}
     </h4>
 

@@ -12,7 +12,7 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <h4 class="text-xl font-bold mt-4">
+  <h4 class="text-xl font-bold mt-4 text-secondary">
     {{ t('SECTIONS.RECIPES.PREFERRED') }}
   </h4>
 

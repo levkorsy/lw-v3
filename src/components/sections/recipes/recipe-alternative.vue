@@ -12,15 +12,13 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <div class="pl-4">
-    <h4 class="text-xl font-bold mt-4">
-      {{ t('SECTIONS.RECIPES.ALTERNATIVE') }}
-    </h4>
+  <h4 class="text-xl font-bold mt-4 text-secondary">
+    {{ t('SECTIONS.RECIPES.ALTERNATIVE') }}
+  </h4>
 
-    <ul class="list-disc list-inside space-y-2">
-      <li v-for="(item, index) in alternative" :key="index">
-        {{ item }}
-      </li>
-    </ul>
-  </div>
+  <ul class="list-disc list-inside space-y-2">
+    <li v-for="(item, index) in alternative" :key="index">
+      {{ item }}
+    </li>
+  </ul>
 </template>
