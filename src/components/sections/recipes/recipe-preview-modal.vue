@@ -45,10 +45,7 @@ defineEmits(['close']);
             <recipe-ingredients :ingredients="recipe.ingredients" />
           </div>
           <div class="me-3 pe-3 border-r-4 border-quinary border-double">
-            <recipe-instructions
-              class="max-h-[80%] overflow-auto"
-              :instructions="recipe.instructions"
-            />
+            <recipe-instructions :instructions="recipe.instructions" />
           </div>
           <div class="me-3">
             <recipe-preferred :preferred="recipe.preferred" />

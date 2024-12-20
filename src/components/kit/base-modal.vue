@@ -28,7 +28,7 @@
           >
             <DialogPanel
               :class="[
-                'relative transform overflow-hidden rounded-lg text-left shadow-xl transition-all max-h-[88vh] mt-8',
+                'relative transform rounded-lg text-left shadow-xl transition-all max-h-[88vh] mt-8 overflow-auto',
                 dialogPanelClass,
               ]"
             >

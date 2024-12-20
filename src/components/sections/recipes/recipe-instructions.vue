@@ -12,14 +12,16 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <h4 class="text-xl font-bold mt-4">
-    {{ t('SECTIONS.RECIPES.INSTRUCTIONS') }}
-  </h4>
+  <div>
+    <h4 class="text-xl font-bold mt-4">
+      {{ t('SECTIONS.RECIPES.INSTRUCTIONS') }}
+    </h4>
 
-  <instruction-group
-    v-for="(group, index) in instructions"
-    :key="index"
-    :title="group.title"
-    :steps="group.steps"
-  />
+    <instruction-group
+      v-for="(group, index) in instructions"
+      :key="index"
+      :title="group.title"
+      :steps="group.steps"
+    />
+  </div>
 </template>
