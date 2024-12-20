@@ -18,8 +18,7 @@ defineProps({
 
 <template>
   <article
-    class="transition-all duration-500 ease-in-out cursor-pointer shadow-lg rounded-lg overflow-hidden border-4 border-double border-secondary"
-    :class="isActive ? 'col-span-2 row-span-2 p-6' : 'h-auto'"
+    class="h-auto transition-all duration-500 ease-in-out cursor-pointer shadow-lg rounded-lg overflow-hidden border-4 border-double border-secondary"
   >
     <div v-if="isActive" class="mt-4 overflow-auto">
       <recipe-title :title="recipe.title" class="text-xl font-bold" />
