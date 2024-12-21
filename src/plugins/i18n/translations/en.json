@@ -236,6 +236,7 @@
     "INSTRUCTIONS": {
       "TITLE": "Instructions",
       "SUBTITLE": "To ensure a seamless and enjoyable experience with your cocktail smoker, follow these detailed instructions:",
+      "ADDITIONAL_TIPS": "Additional Tips",
       "LIST": {
         "SMOKER_SETUP": "Place the smoker on an empty glass and attach the metal filter securely.",
         "WOOD_CHIPS": "Use tongs to place a thin layer of wood chips (such as cherry, applewood, hickory, or oak) in the smoker chamber. Do not overfill; a small amount is sufficient to produce the desired smoke.",
@@ -245,7 +246,12 @@
         "POUR_WHISKEY": "Immediately pour your prepared whiskey or cocktail into the smoked glass. This step ensures that the smoky flavor integrates well with the drink.",
         "METAL_ICE_CUBES": "Rinse and dry the metal cubes, place them in a velvet pouch, and chill in the refrigerator for 1-2 hours before use. Metal cubes are preferred over ice to avoid dilution of the cocktail.",
         "SERVING": "Add the chilled metal cubes directly to the whiskey or cocktail in the smoked glass and enjoy your drink."
-      }
+      },
+      "TIPS": [
+        "<strong>Experiment with Smoking Times:</strong> Start with a shorter infusion time and adjust based on your taste preference for smokiness.",
+        "<strong>Types of Wood Chips:</strong> Different woods impart different flavors. Cherry wood chips, for instance, are excellent for a smooth, sweet note, while oak chips provide a robust, rich flavor.",
+        "<strong>Cleaning:</strong> Ensure you clean the smoker after each use. Knock loose any wood chips or charring from the screen and wipe the wooden parts with a dry or damp cloth as needed. Use the provided brush to clean the metal filter. Avoid submerging the smoker in water."
+      ]
     }
   }
 }

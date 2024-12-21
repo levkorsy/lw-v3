@@ -12,7 +12,14 @@ export function useInstructions() {
     'SECTIONS.INSTRUCTIONS.LIST.SERVING',
   ]);
 
+  const additionalTips = computed(() => [
+    'SECTIONS.INSTRUCTIONS.TIPS[0]',
+    'SECTIONS.INSTRUCTIONS.TIPS[1]',
+    'SECTIONS.INSTRUCTIONS.TIPS[2]',
+  ]);
+
   return {
     instructions,
+    additionalTips,
   };
 }
