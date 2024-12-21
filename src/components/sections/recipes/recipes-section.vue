@@ -35,7 +35,7 @@ const handleRecipeCardClick = (recipe: Recipe) => {
       />
     </div>
   </section>
-
+  <!--TODO add flip effect-->
   <recipe-preview-modal
     :recipe="activeRecipe"
     :is-recipe-modal-open="isRecipeModalOpen"

@@ -4,6 +4,7 @@
     <smoke-sip-enjoy id="smoke-sip-enjoy" />
     <base-divider />
     <recipes id="recipes" />
+    <base-divider />
     <instructions id="instructions" />
     <tips id="tips" />
   </main>
@@ -13,7 +14,7 @@
 import Home from '@/components/sections/home-section.vue';
 import SmokeSipEnjoy from '@/components/sections/smoke-sip-enjoy-section.vue';
 import Recipes from '@/components/sections/recipes/recipes-section.vue';
-import Instructions from '@/components/sections/instructions-section.vue';
+import Instructions from '@/components/sections/instructions/instructions-section.vue';
 import Tips from '@/components/sections/tips-section.vue';
 import BaseDivider from '@/components/kit/base-divider.vue';
 </script>

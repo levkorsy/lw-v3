@@ -39,7 +39,7 @@ const handleNavigation = (item: NavigationItem) => {
   navigation.value.forEach((navItem) => {
     navItem.current = navItem.name === item.name;
   });
-
+  //TODO fix navigation
   scrollIntoView(item.href);
 };
 </script>
