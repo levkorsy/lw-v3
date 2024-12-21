@@ -94,7 +94,7 @@ const handleNavigation = (item: NavigationItem) => {
       </div>
     </div>
 
-    <DisclosurePanel class="sm:hidden">
+    <DisclosurePanel class="sm:hidden bg-quaternary">
       <div class="space-y-1 px-2 pb-3 pt-2">
         <DisclosureButton
           v-for="item in navigation"

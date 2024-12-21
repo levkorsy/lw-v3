@@ -18,8 +18,17 @@ export function useInstructions() {
     'SECTIONS.INSTRUCTIONS.TIPS[2]',
   ]);
 
+  const torchInstructions = computed(() => [
+    'SECTIONS.INSTRUCTIONS.TORCH.STEPS[0]',
+    'SECTIONS.INSTRUCTIONS.TORCH.STEPS[1]',
+    'SECTIONS.INSTRUCTIONS.TORCH.STEPS[2]',
+    'SECTIONS.INSTRUCTIONS.TORCH.STEPS[3]',
+    'SECTIONS.INSTRUCTIONS.TORCH.STEPS[4]',
+  ]);
+
   return {
     instructions,
     additionalTips,
+    torchInstructions,
   };
 }

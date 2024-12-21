@@ -251,7 +251,18 @@
         "<strong>Experiment with Smoking Times:</strong> Start with a shorter infusion time and adjust based on your taste preference for smokiness.",
         "<strong>Types of Wood Chips:</strong> Different woods impart different flavors. Cherry wood chips, for instance, are excellent for a smooth, sweet note, while oak chips provide a robust, rich flavor.",
         "<strong>Cleaning:</strong> Ensure you clean the smoker after each use. Knock loose any wood chips or charring from the screen and wipe the wooden parts with a dry or damp cloth as needed. Use the provided brush to clean the metal filter. Avoid submerging the smoker in water."
-      ]
+      ],
+      "TORCH": {
+        "TITLE": "Torch",
+        "DESCRIPTION": "Master the Flame: Expert Guide to Refilling Your Torch",
+        "STEPS": [
+          "Ensure you choose a butane canister with a long nozzle.",
+          "Locate the gas filling valve on the torch.",
+          "Insert the nozzle of the butane canister into the gas filling valve securely.",
+          "Hold the torch upside down and press firmly to fill for no more than 8 seconds.",
+          "Ensure the torch is turned on and ready for use."
+        ]
+      }
     }
   }
 }
