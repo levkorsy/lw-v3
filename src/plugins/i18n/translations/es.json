@@ -232,6 +232,50 @@
           "Tu bourbon o whisky de centeno favorito también se puede usar."
         ]
       }
+    },
+    "INSTRUCTIONS": {
+      "TITLE": "Instrucciones",
+      "SUBTITLE": "Para garantizar una experiencia fluida y placentera con su ahumador de cócteles, siga estas instrucciones detalladas:",
+      "ADDITIONAL_TIPS": "Consejos Adicionales",
+      "LIST": {
+        "SMOKER_SETUP": "Coloque el ahumador sobre un vaso vacío y asegure el filtro metálico correctamente.",
+        "WOOD_CHIPS": "Use pinzas para colocar una capa fina de astillas de madera (como cerezo, manzano, nogal o roble) en la cámara del ahumador. No lo llene en exceso; una pequeña cantidad es suficiente para producir el humo deseado.",
+        "TORCH": "Sostenga la antorcha en un ángulo de 90 grados. Encienda las astillas de madera aplicando la llama directamente durante 5-7 segundos hasta que comiencen a carbonizarse y producir humo. Asegúrese de manejar la antorcha de forma segura y evite el contacto directo con las partes de madera del ahumador para evitar daños.",
+        "SMOKE_TIME": "Cubra el vaso con la tapa del ahumador y deje que el humo se infunda durante 1-2 minutos. Cuanto más tiempo lo deje cubierto, más intenso será el sabor ahumado.",
+        "HANDLING_SAFETY": "Retire cuidadosamente el ahumador, evitando el contacto con el filtro metálico caliente para prevenir quemaduras.",
+        "POUR_WHISKEY": "Vierta inmediatamente su whisky o cóctel preparado en el vaso ahumado. Este paso asegura que el sabor ahumado se integre bien con la bebida.",
+        "METAL_ICE_CUBES": "Enjuague y seque los cubos de metal, colóquelos en una bolsa de terciopelo y refrigere durante 1-2 horas antes de usarlos. Los cubos de metal son preferidos sobre el hielo para evitar diluir el cóctel.",
+        "SERVING": "Agregue los cubos de metal fríos directamente al whisky o cóctel en el vaso ahumado y disfrute de su bebida."
+      },
+      "TIPS": [
+        "<strong>Experimente con los tiempos de ahumado:</strong> Comience con un tiempo de infusión más corto y ajústelo según su preferencia de sabor ahumado.",
+        "<strong>Tipos de astillas de madera:</strong> Diferentes maderas aportan diferentes sabores. Las astillas de cerezo, por ejemplo, son excelentes para un sabor suave y dulce, mientras que las astillas de roble proporcionan un sabor robusto y rico.",
+        "<strong>Limpieza:</strong> Asegúrese de limpiar el ahumador después de cada uso. Elimine las astillas de madera o el carbón del filtro y limpie las partes de madera con un paño seco o húmedo según sea necesario. Use el cepillo proporcionado para limpiar el filtro metálico. Evite sumergir el ahumador en agua."
+      ],
+      "TORCH": {
+        "TITLE": "Antorcha",
+        "DESCRIPTION": "Domine la llama: Guía experta para rellenar su antorcha",
+        "STEPS": [
+          "Asegúrese de elegir un bote de butano con una boquilla larga.",
+          "Ubique la válvula de llenado de gas en la antorcha.",
+          "Inserte la boquilla del bote de butano en la válvula de llenado de gas de manera segura.",
+          "Sostenga la antorcha boca abajo y presione firmemente para llenar durante no más de 8 segundos.",
+          "Asegúrese de que la antorcha esté encendida y lista para usar."
+        ]
+      },
+      "STONES": {
+        "TITLE": "Instrucciones detalladas para usar piedras de whisky metálicas con gel en su interior",
+        "DESCRIPTION": "Configuración y uso:",
+        "STEPS": [
+          "Enjuague las piedras de whisky metálicas con agua para eliminar cualquier residuo del almacenamiento.",
+          "Seque bien las piedras antes de enfriarlas.",
+          "Coloque las piedras metálicas limpias y secas en la bolsa de terciopelo proporcionada.",
+          "Ponga la bolsa en el congelador durante al menos 2 horas antes de su uso. El gel dentro de las piedras se congelará, asegurando que se mantengan frías durante mucho tiempo.",
+          "Una vez enfriadas, agregue 2-3 piedras a su vaso de whisky, cóctel o cualquier bebida preferida.",
+          "Deje las piedras en la bebida durante unos minutos para enfriarla sin diluir el sabor.",
+          "¡Disfrute de su bebida perfectamente fría!"
+        ]
+      }
     }
   }
 }

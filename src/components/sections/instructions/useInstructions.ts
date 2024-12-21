@@ -26,9 +26,20 @@ export function useInstructions() {
     'SECTIONS.INSTRUCTIONS.TORCH.STEPS[4]',
   ]);
 
+  const stonesInstructions = computed(() => [
+    'SECTIONS.INSTRUCTIONS.STONES.STEPS[0]',
+    'SECTIONS.INSTRUCTIONS.STONES.STEPS[1]',
+    'SECTIONS.INSTRUCTIONS.STONES.STEPS[2]',
+    'SECTIONS.INSTRUCTIONS.STONES.STEPS[3]',
+    'SECTIONS.INSTRUCTIONS.STONES.STEPS[4]',
+    'SECTIONS.INSTRUCTIONS.STONES.STEPS[5]',
+    'SECTIONS.INSTRUCTIONS.STONES.STEPS[6]',
+  ]);
+
   return {
     instructions,
     additionalTips,
     torchInstructions,
+    stonesInstructions,
   };
 }

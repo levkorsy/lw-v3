@@ -262,6 +262,19 @@
           "Hold the torch upside down and press firmly to fill for no more than 8 seconds.",
           "Ensure the torch is turned on and ready for use."
         ]
+      },
+      "STONES": {
+        "TITLE": "Detailed Instructions for Using Metal Whiskey Stones with Gel Inside",
+        "DESCRIPTION": "Setup and Usage:",
+        "STEPS": [
+          "Rinse the metal whiskey stones with water to remove any residue from storage.",
+          "Dry the stones thoroughly before chilling.",
+          "Place the clean and dry metal whiskey stones in the velvet pouch provided.",
+          "Put the pouch in the freezer for at least 2 hours before use. The gel inside the stones will freeze, ensuring they stay cold for a long time.",
+          "Once chilled, add 2-3 stones to your glass of whiskey, cocktail, or any preferred beverage.",
+          "Let the stones sit in the drink for a few minutes to chill it without diluting the flavor.",
+          "Enjoy your perfectly chilled drink!"
+        ]
       }
     }
   }

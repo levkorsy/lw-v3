@@ -5,6 +5,7 @@ import SectionSubHeader from '@/components/sections/components/section-sub-heade
 import TorchInstructions from '@/components/sections/instructions/torch-instructions.vue';
 import AdditionalTips from '@/components/sections/instructions/additional-tips.vue';
 import InstructionsList from '@/components/sections/instructions/instructions-list.vue';
+import StonesInstructions from '@/components/sections/instructions/stones-instructions.vue';
 </script>
 
 <template>
@@ -27,6 +28,8 @@ import InstructionsList from '@/components/sections/instructions/instructions-li
       <additional-tips />
 
       <torch-instructions />
+
+      <stones-instructions />
     </div>
   </section>
 </template>

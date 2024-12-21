@@ -19,7 +19,7 @@ const { torchInstructions } = useInstructions();
         loop
         autoplay
         controls
-        class="w-full h-auto max-h-[700px] rounded-lg shadow-lg"
+        class="w-full h-auto max-h-[750px] rounded-lg shadow-lg"
       ></video>
     </div>
 
