@@ -42,7 +42,7 @@ defineEmits(['close']);
           <div
             class="me-3 sm:pe-3 border-none sm:border-r-4 sm:border-quinary sm:border-double"
           >
-            <recipe-image :image-src="recipe.image" />
+            <recipe-image class="h-auto" :image-src="recipe.image" />
 
             <recipe-ingredients :ingredients="recipe.ingredients" />
           </div>

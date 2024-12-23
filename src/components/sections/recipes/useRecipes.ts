@@ -84,7 +84,7 @@ export const useRecipes = () => {
         t('SECTIONS.RECIPES.SPRING_CHERRY.PREFERRED[1]'),
         t('SECTIONS.RECIPES.SPRING_CHERRY.PREFERRED[2]'),
       ],
-      image: '/images/recipes/spring.png',
+      image: '/images/recipes/spring.webp',
     },
     {
       title: t('SECTIONS.RECIPES.SUMMER_APPLEWOOD.TITLE'),
@@ -156,7 +156,7 @@ export const useRecipes = () => {
         t('SECTIONS.RECIPES.SUMMER_APPLEWOOD.PREFERRED[1]'),
         t('SECTIONS.RECIPES.SUMMER_APPLEWOOD.PREFERRED[2]'),
       ],
-      image: '/images/recipes/summer.png',
+      image: '/images/recipes/summer.webp',
     },
     {
       title: t('SECTIONS.RECIPES.FALL_HICKORY.TITLE'),
@@ -222,7 +222,7 @@ export const useRecipes = () => {
         t('SECTIONS.RECIPES.FALL_HICKORY.PREFERRED[1]'),
         t('SECTIONS.RECIPES.FALL_HICKORY.PREFERRED[2]'),
       ],
-      image: '/images/recipes/fall.png',
+      image: '/images/recipes/fall.webp',
     },
     {
       title: t('SECTIONS.RECIPES.WINTER_OAK.TITLE'),
@@ -282,7 +282,7 @@ export const useRecipes = () => {
         t('SECTIONS.RECIPES.WINTER_OAK.PREFERRED[1]'),
         t('SECTIONS.RECIPES.WINTER_OAK.PREFERRED[2]'),
       ],
-      image: '/images/recipes/winter.png',
+      image: '/images/recipes/winter.webp',
     },
   ]);
 
