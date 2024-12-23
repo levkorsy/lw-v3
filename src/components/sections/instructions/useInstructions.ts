@@ -82,11 +82,19 @@ export function useInstructions() {
     },
   ]);
 
+  const cleaningMaintenanceStones = computed(() => [
+    'SECTIONS.INSTRUCTIONS.STONES.CLEANING.STEPS[0]',
+    'SECTIONS.INSTRUCTIONS.STONES.CLEANING.STEPS[1]',
+    'SECTIONS.INSTRUCTIONS.STONES.CLEANING.STEPS[2]',
+    'SECTIONS.INSTRUCTIONS.STONES.CLEANING.STEPS[3]',
+  ]);
+
   return {
     instructions,
     additionalTips,
     torchInstructions,
     stonesInstructions,
     metalVsIceAdvantages,
+    cleaningMaintenanceStones,
   };
 }

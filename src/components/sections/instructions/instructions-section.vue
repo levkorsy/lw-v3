@@ -7,6 +7,7 @@ import AdditionalTips from '@/components/sections/instructions/additional-tips.v
 import InstructionsList from '@/components/sections/instructions/instructions-list.vue';
 import StonesInstructions from '@/components/sections/instructions/stones-instructions.vue';
 import MetalStonesAdvantages from '@/components/sections/instructions/metal-stones-advantages.vue';
+import MetalStonesCleaning from '@/components/sections/instructions/metal-stones-cleaning.vue';
 </script>
 
 <template>
@@ -33,6 +34,8 @@ import MetalStonesAdvantages from '@/components/sections/instructions/metal-ston
       <stones-instructions />
 
       <metal-stones-advantages />
+
+      <metal-stones-cleaning />
     </div>
   </section>
 </template>

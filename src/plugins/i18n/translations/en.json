@@ -274,7 +274,17 @@
           "Once chilled, add 2-3 stones to your glass of whiskey, cocktail, or any preferred beverage.",
           "Let the stones sit in the drink for a few minutes to chill it without diluting the flavor.",
           "Enjoy your perfectly chilled drink!"
-        ]
+        ],
+        "CLEANING": {
+          "TITLE": "Cleaning and Maintenance:",
+          "STEPS": [
+            "After use, rinse the stones under warm water to remove any beverage residue.",
+            "Dry them thoroughly with a soft cloth or allow them to air dry.",
+            "Store the clean and dry stones in their velvet pouch. This keeps them free from dust and ready for the next use.",
+            "While the stones are designed to be durable, avoid submerging them in water for prolonged periods, as this can affect the gel core."
+          ],
+          "CONCLUSION": "By following these instructions and understanding the benefits, you can maximize your enjoyment of using metal whiskey stones with gel inside. Cheers to a perfectly chilled drink!\n"
+        }
       },
       "ADVANTAGES": {
         "TITLE": "Advantages of Metal Whiskey Stones over Regular Ice Cubes:",
