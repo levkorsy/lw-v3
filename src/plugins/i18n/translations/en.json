@@ -275,6 +275,51 @@
           "Let the stones sit in the drink for a few minutes to chill it without diluting the flavor.",
           "Enjoy your perfectly chilled drink!"
         ]
+      },
+      "ADVANTAGES": {
+        "TITLE": "Advantages of Metal Whiskey Stones over Regular Ice Cubes:",
+        "NON_DILUTING": {
+          "TITLE": "Non-Diluting",
+          "STEPS": [
+            "<u><b>Metal Stones:</b></u> Metal whiskey stones do not melt, which means they chill your drink without watering it down. This preserves the original flavor and strength of your beverage.",
+            "<u><b>Ice Cubes</b></u>: As ice cubes melt, they dilute the drink, altering its taste and reducing its potency."
+          ]
+        },
+        "LONG_LASTING_COOLING": {
+          "TITLE": "Long-Lasting Cooling",
+          "STEPS": [
+            "<u><b>Metal Stones:</b></u> The gel inside metal whiskey stones freezes and stays cold for an extended period, providing consistent cooling throughout your drinking experience.",
+            "<u><b>Ice Cubes:</b></u> Ice cubes can melt relatively quickly, especially in warm environments, reducing their effectiveness over time"
+          ]
+        },
+        "MATERIAL_AND_SAFETY": {
+          "TITLE": "Material and Safety",
+          "STEPS": [
+            "<u><b>Metal Stones:</b></u> Made from food-grade stainless steel, metal whiskey stones are safe, durable, and resistant to corrosion. They do not impart any off flavors or odors to the drink.",
+            "<u><b>Ice Cubes:</b></u> Ice cubes are made from water and can sometimes carry impurities or flavors from the freezer."
+          ]
+        },
+        "REUSABLE": {
+          "TITLE": "Reusable",
+          "STEPS": [
+            "<u><b>Metal Stones:</b></u> Metal whiskey stones are reusable. Simply rinse them after use, dry, and place them back in the freezer for the next use.",
+            "<u><b>Ice Cubes:</b></u> Ice cubes are single-use and need to be replaced for each drink, requiring a constant supply of clean water and freezer space."
+          ]
+        },
+        "AESTHETIC_APPEAL": {
+          "TITLE": "Aesthetic Appeal",
+          "STEPS": [
+            "<u><b>Metal Stones:</b></u> The sleek, modern look of stainless steel stones adds a touch of elegance to any drink, making them a perfect addition for entertaining guests or for personal enjoyment.",
+            "<u><b>Ice Cubes:</b></u> Traditional ice cubes are practical but lack the visual appeal of metal whiskey stones."
+          ]
+        },
+        "ENHANCED_COOLING_EFFICIENCY": {
+          "TITLE": "Enhanced Cooling Efficiency",
+          "STEPS": [
+            "<u><b>Metal Stones:</b></u> The gel core inside the stones enhances their cooling capacity, making them more efficient at chilling beverages compared to regular solid metal stones.",
+            "<u><b>Ice Cubes:</b></u> Ice cubes provide effective cooling but melt over time, which can lead to inconsistent temperature control."
+          ]
+        }
       }
     }
   }

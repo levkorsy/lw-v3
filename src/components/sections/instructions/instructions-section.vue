@@ -6,6 +6,7 @@ import TorchInstructions from '@/components/sections/instructions/torch-instruct
 import AdditionalTips from '@/components/sections/instructions/additional-tips.vue';
 import InstructionsList from '@/components/sections/instructions/instructions-list.vue';
 import StonesInstructions from '@/components/sections/instructions/stones-instructions.vue';
+import MetalStonesAdvantages from '@/components/sections/instructions/metal-stones-advantages.vue';
 </script>
 
 <template>
@@ -30,6 +31,8 @@ import StonesInstructions from '@/components/sections/instructions/stones-instru
       <torch-instructions />
 
       <stones-instructions />
+
+      <metal-stones-advantages />
     </div>
   </section>
 </template>
