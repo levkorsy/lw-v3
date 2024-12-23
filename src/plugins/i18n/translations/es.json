@@ -275,7 +275,53 @@
           "Deje las piedras en la bebida durante unos minutos para enfriarla sin diluir el sabor.",
           "¡Disfrute de su bebida perfectamente fría!"
         ]
+      },
+      "ADVANTAGES": {
+        "TITLE": "Ventajas de las Piedras de Whisky Metálicas sobre los Cubos de Hielo Convencionales:",
+        "NON_DILUTING": {
+          "TITLE": "Sin Dilución",
+          "STEPS": [
+            "<u><b>Piedras Metálicas:</b></u> Las piedras de whisky metálicas no se derriten, lo que significa que enfrían tu bebida sin diluirla. Esto preserva el sabor y la fuerza original de tu bebida.",
+            "<u><b>Cubos de Hielo:</b></u> A medida que los cubos de hielo se derriten, diluyen la bebida, alterando su sabor y reduciendo su potencia."
+          ]
+        },
+        "LONG_LASTING_COOLING": {
+          "TITLE": "Enfriamiento Duradero",
+          "STEPS": [
+            "<u><b>Piedras Metálicas:</b></u> El gel dentro de las piedras de whisky metálicas se congela y permanece frío durante un período prolongado, proporcionando un enfriamiento constante durante tu experiencia de bebida.",
+            "<u><b>Cubos de Hielo:</b></u> Los cubos de hielo pueden derretirse rápidamente, especialmente en ambientes cálidos, reduciendo su efectividad con el tiempo."
+          ]
+        },
+        "MATERIAL_AND_SAFETY": {
+          "TITLE": "Material y Seguridad",
+          "STEPS": [
+            "<u><b>Piedras Metálicas:</b></u> Hechas de acero inoxidable de grado alimenticio, las piedras de whisky metálicas son seguras, duraderas y resistentes a la corrosión. No imparten sabores u olores no deseados a la bebida.",
+            "<u><b>Cubos de Hielo:</b></u> Los cubos de hielo están hechos de agua y, a veces, pueden contener impurezas o sabores del congelador."
+          ]
+        },
+        "REUSABLE": {
+          "TITLE": "Reutilizables",
+          "STEPS": [
+            "<u><b>Piedras Metálicas:</b></u> Las piedras de whisky metálicas son reutilizables. Simplemente enjuágalas después de usarlas, sécalas y colócalas nuevamente en el congelador para el siguiente uso.",
+            "<u><b>Cubos de Hielo:</b></u> Los cubos de hielo son de un solo uso y necesitan ser reemplazados para cada bebida, lo que requiere un suministro constante de agua limpia y espacio en el congelador."
+          ]
+        },
+        "AESTHETIC_APPEAL": {
+          "TITLE": "Atractivo Estético",
+          "STEPS": [
+            "<u><b>Piedras Metálicas:</b></u> El diseño elegante y moderno de las piedras de acero inoxidable añade un toque de elegancia a cualquier bebida, lo que las convierte en una adición perfecta para entretener a los invitados o para disfrute personal.",
+            "<u><b>Cubos de Hielo:</b></u> Los cubos de hielo tradicionales son prácticos pero carecen del atractivo visual de las piedras de whisky metálicas."
+          ]
+        },
+        "ENHANCED_COOLING_EFFICIENCY": {
+          "TITLE": "Eficiencia de Enfriamiento Mejorada",
+          "STEPS": [
+            "<u><b>Piedras Metálicas:</b></u> El núcleo de gel dentro de las piedras mejora su capacidad de enfriamiento, haciéndolas más eficientes para enfriar bebidas en comparación con las piedras metálicas sólidas regulares.",
+            "<u><b>Cubos de Hielo:</b></u> Los cubos de hielo proporcionan un enfriamiento efectivo pero se derriten con el tiempo, lo que puede llevar a un control inconsistente de la temperatura."
+          ]
+        }
       }
+
     }
   }
 }
