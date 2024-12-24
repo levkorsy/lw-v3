@@ -1,28 +1,21 @@
 <template>
-  <footer
-    class="flex items-center justify-center w-full h-full bg-gray-900 text-gray-300"
-  >
-    <div class="text-center">
-      <p>&copy; 2024 Your Company. All rights reserved.</p>
-      <p>
-        <a
-          href="https://instagram.com"
-          target="_blank"
-          class="hover:text-white transition duration-300"
-          >Instagram</a
-        >
-        |
-        <a
-          href="https://amazon.com"
-          target="_blank"
-          class="hover:text-white transition duration-300"
-          >Amazon</a
-        >
-      </p>
-    </div>
+  <footer class="flex items-center flex-col w-full max-h-96 bg-primary">
+    <social-media class="mt-3 mb-3" />
+
+    <p class="text-[11px]">
+      <span class="text-tertiary">Leo`s Will.</span>
+      All rights reserved
+      <span class="text-tertiary">© {{ getYearForCopy() }}</span>
+    </p>
   </footer>
 </template>
 
-<script setup></script>
+<script setup>
+import SocialMedia from '@/components/kit/social-media.vue';
+
+const getYearForCopy = () => {
+  return new Date().getFullYear();
+};
+</script>
 
 <style scoped></style>

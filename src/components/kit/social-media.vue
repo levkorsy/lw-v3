@@ -9,7 +9,7 @@ import { amazonLink, instagramLink } from '@/constans/social-media-links.ts';
       :href="instagramLink"
       target="_blank"
       rel="noopener noreferrer"
-      class="text-gray-300 hover:text-secondary transition duration-300"
+      class="text-gray-300 hover:text-secondary transition duration-300 hover:scale-150"
     >
       <font-awesome-icon :icon="['fab', 'instagram']" class="w-6 h-6" />
     </a>
@@ -19,7 +19,7 @@ import { amazonLink, instagramLink } from '@/constans/social-media-links.ts';
       :href="amazonLink"
       target="_blank"
       rel="noopener noreferrer"
-      class="text-gray-300 hover:text-secondary transition duration-300"
+      class="text-gray-300 hover:text-secondary transition duration-300 hover:scale-150"
     >
       <font-awesome-icon :icon="['fab', 'amazon']" class="w-6 h-6" />
     </a>
