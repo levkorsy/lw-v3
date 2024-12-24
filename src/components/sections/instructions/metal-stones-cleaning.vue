@@ -12,18 +12,21 @@ const { cleaningMaintenanceStones } = useInstructions();
     class="mt-16"
     text="SECTIONS.INSTRUCTIONS.STONES.CLEANING.TITLE"
   />
-  <ul class="list-disc pl-6 space-y-3">
-    <li
-      v-for="(rule, idx) in cleaningMaintenanceStones"
-      :key="idx"
-      v-html="t(rule)"
-      class="text-lg leading-relaxed"
-    ></li>
-  </ul>
 
-  <p class="mt-6 text-justify font-extrabold">
-    {{ t('SECTIONS.INSTRUCTIONS.STONES.CLEANING.CONCLUSION') }}
-  </p>
+  <div class="p-6">
+    <ul class="list-disc pl-6 space-y-3">
+      <li
+        v-for="(rule, idx) in cleaningMaintenanceStones"
+        :key="idx"
+        v-html="t(rule)"
+        class="text-lg leading-relaxed"
+      ></li>
+    </ul>
+
+    <p class="mt-6 text-justify font-extrabold">
+      {{ t('SECTIONS.INSTRUCTIONS.STONES.CLEANING.CONCLUSION') }}
+    </p>
+  </div>
 </template>
 
 <style scoped></style>

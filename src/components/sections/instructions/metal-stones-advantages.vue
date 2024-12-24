@@ -9,14 +9,14 @@ const { metalVsIceAdvantages } = useInstructions();
 
 <template>
   <section-sub-header
-    class="mt-16"
+    class="mt-8 sm:mt-16"
     text="SECTIONS.INSTRUCTIONS.ADVANTAGES.TITLE"
   />
   <div class="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-6">
     <div
       v-for="(advantage, index) in metalVsIceAdvantages"
       :key="index"
-      class="p-4 border-none sm:border-l-8 sm:border-quinary sm:border-double text-justify"
+      class="p-2 sm:p-4 border-none sm:border-l-8 sm:border-quinary sm:border-double text-justify"
     >
       <h4 class="mb-3 font-bold text-2xl">{{ t(advantage.title) }}</h4>
       <ul>

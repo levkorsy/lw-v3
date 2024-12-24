@@ -28,7 +28,7 @@ const { stonesInstructions } = useInstructions();
       <div
         class="border-none sm:border-r-8 sm:border-quinary sm:border-double ml-10"
       ></div>
-      <div class="p-6 ml-4">
+      <div class="px-0 sm:px-6 p-6 ml-0 sm:ml-4">
         <h4 class="text-xl font-bold mb-4">
           {{ t('SECTIONS.INSTRUCTIONS.STONES.DESCRIPTION') }}
         </h4>

@@ -10,7 +10,7 @@ const { tipsGlassFirst, tipsWhiskeyFirst, tipsConclusions } = useTips();
 
 <template>
   <section
-    class="flex flex-col items-center justify-start h-auto bg-primary py-10"
+    class="flex flex-col items-center justify-start h-auto bg-primary py-10 px-5"
   >
     <section-header text="SECTIONS.TIPS.TITLE" />
     <div class="max-w-7xl">
