@@ -331,6 +331,62 @@
           ]
         }
       }
+    },
+    "TIPS": {
+      "TITLE": "Tips for Proper Smoking with a Cocktail Smoker: Glass First vs. Whiskey First",
+      "GLASS_FIRST": {
+        "TITLE": "Smoking the Glass First: The Subtle Touch",
+        "WHY_SMOKE_THE_GLASS": {
+          "TITLE": "Why Smoke the Glass?",
+          "STEPS": [
+            "Balanced Flavor: Smoking the glass gives your drink a gentle smoky flavor. The smoke lingers in the glass and mixes slowly with your cocktail, making sure it doesn’t overpower the drink.",
+            "Aromas Galore: When you smoke the glass, the aroma hits you even before you take a sip. This creates an immersive sensory experience, engaging your sense of smell along with taste.",
+            "Visual Impact: Watching the smoke swirl around the glass as you pour your drink adds a dramatic, visual appeal that impresses guests and elevates your cocktail presentation."
+          ]
+        },
+        "HOW_TO_SMOKE_THE_GLASS": {
+          "TITLE": "How to Smoke the Glass",
+          "STEPS": [
+            "Set up the smoker on an empty glass.",
+            "Use tongs to place a small amount of wood chips in the smoker chamber.",
+            "Ignite the chips with a torch for 5-7 seconds until they start to smoke.",
+            "Cover the glass with the smoker lid for 1-2 minutes.",
+            "Carefully remove the smoker, avoiding the hot metal parts.",
+            "Pour your prepared cocktail into the smoked glass."
+          ]
+        }
+      },
+      "WHISKEY_FIRST": {
+        "TITLE": "Smoking the Whiskey First: The Bold Move",
+        "WHY_SMOKE_THE_GLASS": {
+          "TITLE": "Why Smoke the Whiskey?",
+          "STEPS": [
+            "Intense Flavor: Smoking the whiskey directly results in a stronger, more pronounced smoky flavor. It’s perfect for those who love a bold taste that stands out.",
+            "Deeper Infusion: The smoke penetrates the whiskey thoroughly, creating layers of complexity and richness in every sip.",
+            "Even Flavor: Smoking the whiskey ensures the smoky flavor is evenly distributed, so each sip is consistent and delicious."
+          ]
+        },
+        "HOW_TO_SMOKE_THE_GLASS": {
+          "TITLE": "How to Smoke the Whiskey",
+          "STEPS": [
+            "Pour your whiskey or cocktail into a suitable glass.",
+            "Place the smoker on top of the glass.",
+            "Add a small amount of wood chips to the smoker chamber.",
+            "Ignite the chips with a torch for 5-7 seconds until they start to smoke.",
+            "Cover the glass with the smoker lid for 1-2 minutes.",
+            "Carefully remove the smoker, avoiding the hot metal parts.",
+            "Enjoy your richly smoked drink."
+          ]
+        }
+      },
+      "CONCLUSIONS": {
+        "TITLE": "Conclusions",
+        "DESCRIPTION": "Whether you prefer the subtle, aromatic allure of smoking the glass or the bold, intense flavor of smoking the whiskey, each method offers a unique way to enjoy your cocktails.",
+        "STEPS": [
+          "Smoke the Glass First for a mild, aromatic experience that enhances the sensory appeal and adds a touch of elegance to your drink.",
+          "Smoke the Whiskey First for a bold, rich flavor that transforms your cocktail into a smoky masterpiece."
+        ]
+      }
     }
   }
 }

@@ -274,7 +274,17 @@
           "Una vez enfriadas, agregue 2-3 piedras a su vaso de whisky, cóctel o cualquier bebida preferida.",
           "Deje las piedras en la bebida durante unos minutos para enfriarla sin diluir el sabor.",
           "¡Disfrute de su bebida perfectamente fría!"
-        ]
+        ],
+        "CLEANING": {
+          "TITLE": "Limpieza y almacenamiento",
+          "STEPS": [
+            "Después de usar las piedras de whisky metálicas, enjuáguelas con agua tibia para eliminar cualquier residuo de la bebida.",
+            "Seque las piedras con un paño limpio y déjelas secar al aire antes de guardarlas.",
+            "Coloque las piedras secas en la bolsa de terciopelo y guárdelas en el congelador para su próximo uso.",
+            "No lave las piedras de whisky metálicas en el lavavajillas, ya que esto puede dañar el gel interior."
+          ],
+          "CONCLUSION": "Siga estos pasos para mantener sus piedras de whisky metálicas limpias y listas para usar en cualquier momento."
+        }
       },
       "ADVANTAGES": {
         "TITLE": "Ventajas de las Piedras de Whisky Metálicas sobre los Cubos de Hielo Convencionales:",
@@ -320,6 +330,62 @@
             "<u><b>Cubos de Hielo:</b></u> Los cubos de hielo proporcionan un enfriamiento efectivo pero se derriten con el tiempo, lo que puede llevar a un control inconsistente de la temperatura."
           ]
         }
+      }
+    },
+    "TIPS": {
+      "TITLE": "Consejos para fumar correctamente con un ahumador de cócteles: primero el vaso y luego el whisky",
+      "GLASS_FIRST": {
+        "TITLE": "Fumar el vaso primero: el toque sutil",
+        "WHY_SMOKE_THE_GLASS": {
+          "TITLE": "¿Por qué ahumar el vaso?",
+          "STEPS": [
+            "Sabor equilibrado: Ahumar el vaso le da a tu bebida un sabor ahumado suave. El humo permanece en el vaso y se mezcla lentamente con tu cóctel, asegurando que no sobrepase el sabor de la bebida.",
+            "Aromas intensos: Cuando ahúmas el vaso, el aroma te llega incluso antes de tomar un sorbo. Esto crea una experiencia sensorial inmersiva, involucrando tanto el olfato como el gusto.",
+            "Impacto visual: Ver el humo girar alrededor del vaso mientras viertes tu bebida agrega un atractivo visual dramático que impresiona a los invitados y eleva la presentación del cóctel."
+          ]
+        },
+        "HOW_TO_SMOKE_THE_GLASS": {
+          "TITLE": "Cómo ahumar el vaso",
+          "STEPS": [
+            "Prepara el ahumador en un vaso vacío.",
+            "Usa pinzas para colocar una pequeña cantidad de astillas de madera en la cámara del ahumador.",
+            "Enciende las astillas con un soplete durante 5-7 segundos hasta que comiencen a humear.",
+            "Cubre el vaso con la tapa del ahumador durante 1-2 minutos.",
+            "Retira cuidadosamente el ahumador, evitando las partes metálicas calientes.",
+            "Vierte tu cóctel preparado en el vaso ahumado."
+          ]
+        }
+      },
+      "WHISKEY_FIRST": {
+        "TITLE": "Fumar el whisky primero: una decisión audaz",
+        "WHY_SMOKE_THE_GLASS": {
+          "TITLE": "¿Por qué ahumar el whisky?",
+          "STEPS": [
+            "Sabor intenso: Ahumar el whisky directamente da como resultado un sabor ahumado más fuerte y pronunciado. Es perfecto para quienes prefieren un sabor audaz que destaque.",
+            "Infusión profunda: El humo penetra profundamente en el whisky, creando capas de complejidad y riqueza en cada sorbo.",
+            "Sabor uniforme: Ahumar el whisky garantiza que el sabor ahumado se distribuya uniformemente, haciendo que cada sorbo sea consistente y delicioso."
+          ]
+        },
+        "HOW_TO_SMOKE_THE_GLASS": {
+          "TITLE": "Cómo ahumar el whisky",
+          "STEPS": [
+            "Vierte tu whisky o cóctel en un vaso adecuado.",
+            "Coloca el ahumador sobre el vaso.",
+            "Añade una pequeña cantidad de astillas de madera en la cámara del ahumador.",
+            "Enciende las astillas con un soplete durante 5-7 segundos hasta que comiencen a humear.",
+            "Cubre el vaso con la tapa del ahumador durante 1-2 minutos.",
+            "Retira cuidadosamente el ahumador, evitando las partes metálicas calientes.",
+            "Disfruta de tu bebida ahumada."
+          ]
+        }
+      },
+      "CONCLUSIONS": {
+        "TITLE": "Conclusiones",
+        "DESCRIPTION": "Ya sea que prefieras el atractivo aromático sutil de ahumar el vaso o el sabor intenso y audaz de ahumar el whisky, cada método ofrece una forma única de disfrutar tus cócteles.",
+        "STEPS": [
+          "Ahumar el vaso primero para una experiencia suave y aromática que realza el atractivo sensorial y agrega un toque de elegancia a tu bebida.",
+          "Ahumar el whisky primero para un sabor audaz y rico que transforma tu cóctel en una obra maestra ahumada."
+        ]
       }
     }
   }

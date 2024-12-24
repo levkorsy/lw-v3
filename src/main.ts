@@ -6,6 +6,6 @@ import FontAwesomeIcon from '@/plugins/font-awesome.ts';
 
 const app = createApp(App);
 
-app.use(i18n);
+app.use(i18n); // TODO save to local storage
 app.component('font-awesome-icon', FontAwesomeIcon);
 app.mount('#app');
